@@ -3,7 +3,7 @@ version: "3.0"
 services:
   frontend:
     # Replace with your image
-    image: ghcr.io/grimmweeper/bootcamp-gds-frontend:2d2b9d6
+    image: ghcr.io/grimmweeper/bootcamp-gds-frontend:77c12e2
     command: "npm start"
     environment:
       NODE_ENV: development
@@ -14,7 +14,7 @@ services:
 
   backend:
     # Replace with your image
-    image: ghcr.io/grimmweeper/bootcamp-gds-backend:2d2b9d6
+    image: ghcr.io/grimmweeper/bootcamp-gds-backend:77c12e2
     command: "npm start"
     environment:
       NODE_ENV: development
